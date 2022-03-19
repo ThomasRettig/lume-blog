@@ -7,15 +7,14 @@ const imageCacheName = `${version}--images`
 const staticAssets = [
     '/manifest.json',
     '/assets/css/theme.css',
-    '/assets/js/main.js',
-    '/assets/fonts/Recursive.woff2',
+    '/assets/js/main.js'
 ]
 
 const staticPages = [
     '/',
     '/profile/',
     '/legal/',
-    '/privacy/',
+    '/privacy/'
 ]
 
 self.addEventListener('install', async () => {
