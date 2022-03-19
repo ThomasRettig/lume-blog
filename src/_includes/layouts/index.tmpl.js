@@ -1,19 +1,18 @@
 export const layout = 'layouts/base.njk'
 
 export default async (
-    {title, description, tags, url, site, time, author, content, search, comp},
-    {njk, md, date, htmlUrl}) => {
+    {title, description, tags, url, site, author, content, search, comp} => {
 
     const Tech = comp.head.tech
     const Meta = comp.head.meta
     const OpenGraph = comp.head.openGraph
     const Twitter = comp.head.twitter
     const WebPageSchema = comp.head.webPageSchema
-    const WebsiteSchema = comp.head.websiteSchema
+    // const WebsiteSchema = comp.head.websiteSchema
 
     const Body = comp.body
 
-    const posts = search.pages("post", "date=desc")
+    // const posts = search.pages("post", "date=desc")
 
     return `
     <head>

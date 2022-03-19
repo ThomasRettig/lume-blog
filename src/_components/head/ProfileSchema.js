@@ -1,6 +1,6 @@
 export default ({author}) => {
 
-    const { x, ...rest } = author
+    const { _x, ...rest } = author
 
     return `
 <!-- Profile Schema -->
