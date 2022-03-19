@@ -1,6 +1,6 @@
 export const layout = 'layouts/base.njk'
 
-export default ({title, description, date, subtitle, url, tags, site, time, author, content, search, comp}) => {
+export default ({title, description, date, subtitle, url, tags, site, time, author, content, comp}) => {
 
     const Tech = comp.head.tech
     const Meta = comp.head.meta

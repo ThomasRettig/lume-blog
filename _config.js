@@ -37,15 +37,15 @@ generator
     .copy('assets/img')
     .copy('tobiasschmidt.pgp')
 
-for (let p of preprocess) {
+for (const p of preprocess) {
     generator.preprocess(p[0], p[1])
 }
 
-for (let p of process) {
+for (const p of process) {
     generator.process(p[0], p[1])
 }
 
-for (let h of helper) {
+for (const h of helper) {
     generator.helper(h[0], h[1], h[2])
 }
 

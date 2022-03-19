@@ -1,4 +1,4 @@
-export default ({content, author, url, site, nextPost, prevPost, comp}) => {
+export default ({content, url, nextPost, prevPost, comp}) => {
 
     const Navigation = comp.navigation
 
