@@ -1,6 +1,6 @@
 pre,
 code {
-    font-family: Menlo, Courier, monospace;
+    font-family: 'JetBrains Mono', 'IBM Plex Sans', Menlo, Courier, monospace;
 }
 
 pre {
@@ -38,6 +38,7 @@ pre[class*='language-'] {
     padding: 0.075em 0.25em;
     white-space: normal;
 }
+
 .hljs-doctag,
 .hljs-keyword,
 .hljs-formula,
