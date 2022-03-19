@@ -1,6 +1,6 @@
 export default ({site}) => {
 
-    const { x, ...rest } = site
+    const { _x, ...rest } = site
 
     return `
     <!-- Website Schema -->

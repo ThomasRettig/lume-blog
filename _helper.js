@@ -3,7 +3,7 @@ const x = [
     'x',
     (data) => {
         console.log('X')
-        const { x, ...rest } = data
+        const { _x, ...rest } = data
         return rest
     },
     { type: 'filter' }
