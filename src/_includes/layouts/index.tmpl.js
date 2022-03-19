@@ -7,7 +7,7 @@ export default async (
     const Meta = comp.head.meta
     const OpenGraph = comp.head.openGraph
     const Twitter = comp.head.twitter
-    const WebPageSchema = comp.head.webPageSchema
+    const _WebPageSchema = comp.head.webPageSchema
     const WebsiteSchema = comp.head.websiteSchema
 
     const Body = comp.body
