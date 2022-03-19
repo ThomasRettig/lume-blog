@@ -88,7 +88,7 @@ async function networkFirst(req, { cache: cacheName, limit }) {
         const fresh = await fetch(req)
         await stash(cache, cleanRequest, fresh.clone(), { limit })
         return fresh
-    } catch (e) {
+    } catch (_e) {
         const cached = await cache.match(cleanRequest)
         return cached
     }
